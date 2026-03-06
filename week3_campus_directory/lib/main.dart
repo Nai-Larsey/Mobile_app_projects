@@ -16,6 +16,7 @@ class CampusDirectoryApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'VVU Campus Directory',
       theme: ThemeData(
         primarySwatch: Colors.blue,
@@ -64,7 +65,7 @@ class HomeScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              'Hello, Student 👋',
+              'Hello, Emmanuel 👋',
               style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
             ),
             SizedBox(height: 10),
