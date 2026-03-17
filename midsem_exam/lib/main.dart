@@ -13,4 +13,10 @@ class MyApp extends StatelessWidget {
       home: ProfileScreen(),
     );
   }
+
+  void main() async {
+    WidgetsFlutterBinding.ensureInitialized();
+    await Firebase.initializeApp();
+    runApp(MyApp());
+  }
 }

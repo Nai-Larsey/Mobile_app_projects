@@ -43,7 +43,7 @@ class _TaskListScreenState extends State<TaskListScreen> {
                 onChanged: (value) => title = value,
               ),
               TextField(
-                decoration: InputDecoration(labelText: "Course"),
+                decoration: InputDecoration(labelText: "Course Code"),
                 onChanged: (value) => course = value,
               ),
               ElevatedButton(
