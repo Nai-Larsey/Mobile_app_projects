@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import '../models/task.dart';
 
 class TaskListScreen extends StatefulWidget {
+  const TaskListScreen({super.key});
+
   @override
   _TaskListScreenState createState() => _TaskListScreenState();
 }

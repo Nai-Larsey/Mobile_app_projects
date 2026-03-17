@@ -10,6 +10,8 @@ class ProfileScreen extends StatelessWidget {
     level: 300,
   );
 
+  ProfileScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
